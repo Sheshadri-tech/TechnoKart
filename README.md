@@ -1,16 +1,97 @@
-# React + Vite
+# TechnoKart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive multi-page web application built with **React** and **Vite**, using **React Router** for client-side navigation.
 
-Currently, two official plugins are available:
+> **EDIT:** Replace this line with one sentence on what TechnoKart does, e.g. "An online store for tech products where users can browse items, view details and manage a cart."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+| Area | Technology |
+|---|---|
+| UI library | React 19 |
+| Build tool | Vite |
+| Routing | React Router DOM 6 |
+| Language | JavaScript (ES6+), HTML5, CSS3 |
+| Code quality | ESLint (with React Hooks rules) |
+| Deployment | Vercel |
+| Version control | Git and GitHub |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+> **EDIT:** Keep only the features your app really has, and delete the rest.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Multi-page navigation with React Router (home, [other pages])
+- Reusable React components
+- Responsive layout for mobile and desktop
+- [Product listing / product details]
+- [Cart / add and remove items]
+- [Search / filter / sort]
+- [Login / sign up]
+
+## Screenshots
+
+> **EDIT:** Add 2–3 screenshots (home page, main feature, mobile view). Save them in a `screenshots/` folder, then use:
+
+```md
+![Home page](screenshots/home.png)
+```
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 20 or later
+- npm (comes with Node.js)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Sheshadri-tech/TechnoKart.git
+
+# Go to the project folder
+cd TechnoKart
+
+# Install dependencies
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+Open the local address shown in the terminal (usually `http://localhost:5173`).
+
+### Available scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start the development server with hot reload |
+| `npm run build` | Create a production build in `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Check the code with ESLint |
+
+## Project Structure
+
+```
+TechnoKart/
+├── public/          # Static assets
+├── src/             # Components, pages and styles
+├── index.html       # App entry HTML
+├── vite.config.js   # Vite configuration
+├── eslint.config.js # ESLint rules
+└── package.json
+```
+
+## What I Learned
+
+- Structuring a React app into reusable components
+- Setting up client-side routing with React Router
+- Building and deploying a Vite project on Vercel
+
+## Author
+
+**Sheshadri B T**
+[GitHub](https://github.com/Sheshadri-tech) · [LinkedIn](https://www.linkedin.com/in/sheshadri-b-t-2099a42a5/) · sheshadribt089@gmail.com
